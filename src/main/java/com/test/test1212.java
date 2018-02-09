@@ -13,6 +13,7 @@ import java.util.Map;
  */
 public class test1212 {
 
+
     public  static void main(String[] args){
         Jedis jedis;
 
@@ -22,6 +23,7 @@ public class test1212 {
 
         jedis.set("name","xinxin");//向key-->name中放入了value-->xinxin
         System.out.println(jedis.get("name"));//执行结果：xinxin
+        //测试增加代码
 
     }
 
